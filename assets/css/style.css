@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
-  --primary-color: rgb(47, 106, 122);
-  --primary-color-darker: rgb(11, 77, 97);
+  --primary-color: rgb(38, 70, 83);
+  --primary-color-darker: rgb(25, 56, 69);
+  --container-bg: rgb(225, 229, 232);
 }
 
 * {
@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   background: var(--primary-color);
-  font-family: "Open sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
 }
@@ -22,7 +22,7 @@ body {
 .container {
   max-width: 640px;
   margin: 50px auto;
-  background: white;
+  background-color: var(--container-bg);
   padding: 20px;
   border-radius: 10px;
 }
