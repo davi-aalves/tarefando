@@ -6,3 +6,13 @@ btnAddTarefa.addEventListener("click", function () {
   if (!inputNovaTarefa.value) return;
   criaTarefa(inputNovaTarefa.value);
 });
+
+function criaLi() {
+  const li = document.createElement("li");
+  return li;
+}
+
+function criaTarefa(textoInput) {
+  const li = criaLi();
+  li.innerHTML = textoInput;
+}
