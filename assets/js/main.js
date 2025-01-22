@@ -12,7 +12,16 @@ function criaLi() {
   return li;
 }
 
+inputNovaTarefa.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    if (!inputNovaTarefa.value) return;
+    criaTarefa(inputNovaTarefa.value);
+    inputNovaTarefa.value = "";
+  }
+});
+
 function criaTarefa(textoInput) {
   const li = criaLi();
   li.innerHTML = textoInput;
+  tarefas.appendChild(li);
 }
