@@ -1,2 +1,7 @@
-# tarefando
-Tarefando é um aplicativo simples e intuitivo para organizar e acompanhar suas tarefas do dia a dia. Com um design minimalista e funcionalidades práticas, ele foi pensado para ajudar você a gerenciar suas atividades de forma eficiente e sem complicações. Ideal para quem busca produtividade e clareza na rotina. 🚀
+# Tarefando
+
+**Tarefando** é um aplicativo simples e minimalista, desenvolvido como um projeto de aprendizado para exercitar conceitos de JavaScript.  
+Por enquanto, o app utiliza HTML, CSS e JavaScript para ajudar os usuários a organizarem e planejarem suas tarefas diárias.  
+Ideal para qualquer pessoa que busque melhorar a produtividade e a clareza na sua rotina.  
+
+**Primeira versão em desenvolvimento.**
