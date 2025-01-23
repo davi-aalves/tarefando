@@ -34,3 +34,10 @@ function criaTarefa(textoInput) {
   tarefas.appendChild(li);
   criaBotaoApagar(li);
 }
+
+document.addEventListener("click", function (e) {
+  const el = e.target;
+  if (el.classList.contains("apagar")) {
+    el.parentElement.remove();
+  }
+});
