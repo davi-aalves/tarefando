@@ -20,8 +20,17 @@ inputNovaTarefa.addEventListener("keydown", function (e) {
   }
 });
 
+function criaBotaoApagar(li) {
+  li.innerText += " ";
+  const botaoApagar = document.createElement("button");
+  botaoApagar.innerText = "Apagar";
+  botaoApagar.setAttribute("class", "apagar");
+  li.appendChild(botaoApagar);
+}
+
 function criaTarefa(textoInput) {
   const li = criaLi();
   li.innerHTML = textoInput;
   tarefas.appendChild(li);
+  criaBotaoApagar(li);
 }
